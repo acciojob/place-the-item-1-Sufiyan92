@@ -1,2 +1,26 @@
-
 /* Your CSS Code here. */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.fbc {
+    background-color: aquamarine;
+    display: flex;
+    margin-top: 10vh;
+    width: 100vw;
+    height: 90vh;
+
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.fbc div {
+    background-color: black;
+    height: 150px;
+    width: 300px;
+
+
+}
